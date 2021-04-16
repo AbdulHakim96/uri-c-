@@ -1,0 +1,20 @@
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n,la,lb,sa,sb;
+    cin >> n ;
+    cin  >> la >> lb ;
+    cin >> sa >> sb ;
+    
+    if (lb>=n && sb>=n){
+    	cout << "possivel" ;
+	}
+   else {
+   	cout << "impossivel";
+   }
+    return 0;
+}
